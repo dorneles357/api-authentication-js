@@ -2,9 +2,6 @@ const User = require('../models/user');
 
 module.exports = ()=>{
     const HomeController = {
-        index(req, res){
-            console.log(req.body);
-        },
         show(req, res){
             const users = ["Naruto", "goku", "Saitama", "Hantaro"];
 
@@ -12,6 +9,9 @@ module.exports = ()=>{
                 error: false,
                 users
             })
+        }, 
+        async store(req, res){
+            
         }
     } 
     return HomeController;
