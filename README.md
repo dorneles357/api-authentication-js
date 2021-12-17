@@ -7,6 +7,7 @@
     Consign: carregamento de automático de rotas internas;
     cors: compartilhamento de recursos;
     mongoose: ferramenta de modelagem de objetos MongoDB
+    yup: construtor de esquemas JavaScript para análise de valor e validação;
 
     dotenv: orquestrar as variáveis ambiente;
 
