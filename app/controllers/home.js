@@ -34,7 +34,15 @@ module.exports = (app)=>{
              const {name, email, password} = req.body;
              const data = {name, email, password};
 
-             
+
+             //validation email
+             const userExist = await User.findOne({email: req.body.email});
+             if(userExist)
+                return res.status(400).json({
+                    error: true,
+                    message: 'Not possible create user, email already exists'
+                });
+
              //create 
              await User.create(data, (err)=> {
                 if(err)
