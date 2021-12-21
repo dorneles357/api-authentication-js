@@ -8,6 +8,7 @@
     cors: compartilhamento de recursos;
     mongoose: ferramenta de modelagem de objetos MongoDB
     yup: construtor de esquemas JavaScript para análise de valor e validação;
+    bcryptjs: criptografia de dados;
 
     dotenv: orquestrar as variáveis ambiente;
 

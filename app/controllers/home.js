@@ -1,5 +1,5 @@
 const yup = require('yup');
-
+const bcrypt = require('bcryptjs')
 module.exports = (app)=>{
     
     const User = app.models.user
@@ -42,6 +42,9 @@ module.exports = (app)=>{
                     error: true,
                     message: 'Not possible create user, email already exists'
                 });
+		
+		//cryptography password
+		data.password = await bcrypt.hash(data.password, 8);
 
              //create 
              await User.create(data, (err)=> {
