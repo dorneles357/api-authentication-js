@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 function dataBaseConnectionMongoDB(){
-   return mongoose.connect('mongodb://127.0.0.1/nodeJS',
+   return mongoose.connect(process.env.DB_DEV,
    )
         .then(()=>{
             console.log(`Connect, MongoDB`)
