@@ -31,7 +31,7 @@ As variáveis de ambiente para validação do token, para o desenvolvimento, tam
 ## Rodar localmente a API
 
     npm run dev
-Se tudo ocorrer como esperado será imprimido em seu terminal uma mensagem com o endereço local da API e se obteve sucesso na conecção com o banco de dados;
+Se tudo ocorrer como esperado, será imprimido em seu terminal uma mensagem com o endereço local da API e se obteve sucesso na conecção com o banco de dados;
 
 ## Tecnologias usadas
 ### NodJS: Servidor
