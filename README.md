@@ -1,5 +1,5 @@
 # Api para cadastro de usuários
-<<<<<<< HEAD
+
 Um microserviço de autenticação de usuários é fundamental para qualquer aplicação web. Essa API foi contruida com o NodeJS e express em um padrão [REST](https://developer.mozilla.org/pt-BR/docs/Glossary/REST).
 
 ## Como Funciona?
@@ -34,7 +34,7 @@ As variáveis de ambiente para validação do token, para o desenvolvimento, tam
     npm run dev
 Se tudo ocorrer como esperado, será imprimido em seu terminal uma mensagem com o endereço local da API e se obteve sucesso na conecção com o banco de dados;
 =======
->>>>>>> parent of e9329ae (💄 Atualização: README)
+
 
 ## Tecnologias usadas
 ### NodJS: Servidor
